@@ -1,0 +1,17 @@
+[package]
+name = "hello"
+version = "1.0.0"
+authors = []
+#upgrade_policy = "immutable"
+
+[addresses]
+sender = "0x120faaaa8517b0b155c3aa5f1ffed804449e7541543053f7896dc9cc8f54e2a1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
